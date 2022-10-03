@@ -1,0 +1,39 @@
+{
+    "worksData": [
+        {
+            "id": 1,
+            "title": "PLANLAMA",
+            "text": "Proje sahibinin istekleri analiz edilir, beklenti ve ulaşılmak istenen hedef belirlenir.",
+            "icon": "/icons/works/how-we-do-plan-icon.svg",
+            "bgUrl": "/images/works/what-we-do-planning-bg.jpg"
+        },
+        {
+            "id": 2,
+            "title": "GÖRSEL TASARIM",
+            "text": "Planlama aşamasından sonra uygulamanın tüm görselleri oluşturulur.",
+            "icon": "/icons/works/how-we-do-design.svg",
+            "bgUrl": "/images/works/what-we-do-designing-bg.jpg"
+        },
+        {
+            "id": 3,
+            "title": "ONAY ALIMI",
+            "text": "Projenin iskeleti ve görselleri çıkarıldıktan sonra müşteriden onay alınır.",
+            "icon": "/icons/works/how-we-do-tick01.svg",
+            "bgUrl": "/images/works/what-we-do-aggremant-bg.jpg"
+        },
+        {
+            "id": 4,
+            "title": "KODLAMA",
+            "text": "Belirlenen tasarımlar ve gereksinimler doğrultusunda kodlama işlemini yapıyoruz.",
+            "icon": "/icons/works/how-we-do-coding.svg",
+            "bgUrl": "/images/works/what-we-do-coding-bg.jpg"
+        },
+        {
+            "id": 5,
+            "title": "PROJE TESLİMİ",
+            "text": "Tüm çalışmalar ve kontroller sağlandıktan sonra proje onayınıza sunulup yayınlanır.",
+            "icon": "/icons/works/how-we-do-finish.svg",
+            "bgUrl": "/images/works/what-we-do-finish-bg.jpg"
+        }
+    ]
+}

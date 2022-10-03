@@ -1,0 +1,22 @@
+{
+    "blogData": [
+        {
+            "id": "1",
+            "title": "Blockchain Yazılım",
+            "tag": "Blockchain",
+            "coverImage": "/images/blog/blockchain-yazilim-hizmetleri-cover.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Google Reklam Verme Hizmeti",
+            "tag": "Google ADS",
+            "coverImage": "/images/blog/google-reklam-verme-cover.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Web Yazılım Hizmetleri",
+            "tag": "Yazılım Geliştirme",
+            "coverImage": "/images/blog/web-yazilim-hizmetleri-cover.jpg"
+        }
+    ]
+}

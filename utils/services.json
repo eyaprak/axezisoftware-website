@@ -1,0 +1,46 @@
+{
+    "servicesData": [
+        {
+            "id": 1,
+            "title": "Blockchain Programlama",
+            "text": "Sizler için, hayalinizdeki akıllı kontratlar ve kripto uygulamalarını hayata geçirmekteyiz.",
+            "icon": "blockchain-icon",
+            "bgUrl": "/images/blockchain-bg.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Web Programlama",
+            "text": "Hayalinizdeki web sitelerinizi, yüksek kaliteli kodlama ile hayata geçirmekteyiz.",
+            "icon": "web-programming-icon",
+            "bgUrl": "/images/web-design-bg.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Mobil Programlama",
+            "text": "Hayalinizdeki mobil uygulamalarınızı, yüksek kaliteli kodlama ile hayata geçirmekteyiz.",
+            "icon": "mobile-programming-icon",
+            "bgUrl": "/images/mobile-programming-bg.jpg"
+        },
+        {
+            "id": 4,
+            "title": "UI/UX Dizayn Hizmeti",
+            "text": "Web & Mobil uygulamalarınızda kullanabileceğiniz UI/UX dizayn hizmeti vermekteyiz.",
+            "icon": "ui-ux-design-icon",
+            "bgUrl": "/images/UI-UX-design-bg.jpg"
+        },
+        {
+            "id": 5,
+            "title": "E-Ticaret Web Hizmeti",
+            "text": "En yeni nesil backend ve frontend teknolojileri ile E-ticaret web programlama hizmeti vermekteyiz.",
+            "icon": "ecommerce-website-icon",
+            "bgUrl": "/images/e-commerce-bg.jpg"
+        },
+        {
+            "id": 6,
+            "title": "SEO & Reklam Hizmeti",
+            "text": "Web ve mobil uygulamalarınız için sizleri Google üzerinde yükseltecek SEO ve Reklam hizmeti vermekteyiz.",
+            "icon": "seoads-icon",
+            "bgUrl": "/images/seo-ads-bg.jpg"
+        }
+    ]
+}

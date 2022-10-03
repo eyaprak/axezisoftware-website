@@ -1,0 +1,68 @@
+{
+    "servicesData": [
+        {
+            "id": "1",
+            "text": "Blockchain Programlama"
+        },
+        {
+            "id": "2",
+            "text": "Web Programlama"
+        },
+        {
+            "id": "3",
+            "text": "Mobil Programlama"
+        },
+        {
+            "id": "4",
+            "text": "UI/UX Dizayn Hizmeti"
+        },
+        {
+            "id": "5",
+            "text": "E-Ticaret Web Hizmeti"
+        }
+    ],
+    "helpfulLinksData": [
+        {
+            "id": "1",
+            "text": "Anasayfa",
+            "link": "/"
+        },
+        {
+            "id": "2",
+            "text": "Servislerimiz",
+            "link": "/servislerimiz"
+        },
+        {
+            "id": "3",
+            "text": "Projelerimiz",
+            "link": "/projelerimiz"
+        },
+        {
+            "id": "4",
+            "text": "Yazılarımız",
+            "link": "/yazilarimiz"
+        },
+        {
+            "id": "5",
+            "text": "İletişim",
+            "link": "/iletisim"
+        }
+    ],
+    "lastBlogsData": [
+        {
+            "id": "1",
+            "text": "Blockchain Yazılım Hizmetleri",
+            "link": "/blockchain-yazilim-hizmetleri"
+        },
+        {
+            "id": "2",
+            "text": "Google Reklam Verme",
+            "link": "/google-reklam-verme-hizmeti-google-ads"
+        },
+        {
+            "id": "3",
+            "text": "Web Yazılım Hizmetleri",
+            "link": "/web-yazilim-hizmetleri"
+        }
+    ]
+}

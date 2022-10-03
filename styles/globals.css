@@ -1,26 +1,36 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../public/assets/Montserrat/Montserrat-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../public/assets/Montserrat/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+    font-family: 'MontserratSemibold';
+    src: url('../public/assets/Montserrat/Montserrat-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+    font-family: 'MontserratExtrabold';
+    src: url('../public/assets/Montserrat/Montserrat-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    box-sizing: border-box;
 }

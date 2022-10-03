@@ -1,0 +1,29 @@
+{
+    "menuItems": [
+        {
+            "id": 1,
+            "name": "Anasayfa",
+            "url": "/"
+        },
+        {
+            "id": 2,
+            "name": "Servislerimiz",
+            "url": "/servislerimiz"
+        },
+        {
+            "id": 3,
+            "name": "Projelerimiz",
+            "url": "/projelerimiz"
+        },
+        {
+            "id": 4,
+            "name": "Yazılarımız",
+            "url": "/blog"
+        },
+        {
+            "id": 5,
+            "name": "İletişim",
+            "url": "/iletisim"
+        }
+    ]
+}

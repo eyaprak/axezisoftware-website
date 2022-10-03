@@ -1,0 +1,36 @@
+{
+    "techIconsData": [
+        {
+            "id": 1,
+            "icon": "/icons/tech/react.svg"
+        },
+        {
+            "id": 2,
+            "icon": "/icons/tech/vuejs.svg"
+        },
+        {
+            "id": 3,
+            "icon": "/icons/tech/html.svg"
+        },
+        {
+            "id": 4,
+            "icon": "/icons/tech/css.svg"
+        },
+        {
+            "id": 5,
+            "icon": "/icons/tech/seo.svg"
+        },
+        {
+            "id": 6,
+            "icon": "/icons/tech/ecommerce.svg"
+        },
+        {
+            "id": 7,
+            "icon": "/icons/tech/javascript.svg"
+        },
+        {
+            "id": 8,
+            "icon": "/icons/tech/mobile.svg"
+        }
+    ] 
+}
