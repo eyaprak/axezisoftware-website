@@ -13,12 +13,12 @@
         {
             "id": 3,
             "name": "Projelerimiz",
-            "url": "/projelerimiz"
+            "url": "/projeler"
         },
         {
             "id": 4,
             "name": "Yazılarımız",
-            "url": "/blog"
+            "url": "/blogs"
         },
         {
             "id": 5,

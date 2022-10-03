@@ -1,0 +1,202 @@
+{
+    "projelerData": [
+        {
+            "id": "1",
+            "name": "Axezi Ambalaj",
+            "category": "wordpress",
+            "image": "/images/projects/axeziambalaj-proje-image.webp",
+            "url": "https://axeziambalaj.com",
+            "title": "Axezi Ambalaj Shop",
+            "description": "Axezi Ambalaj firması için yapmış olduğumuz websitesini, yukarıdaki resimden yada başlık kısmındaki linkten inceleyebilirsiniz. Bu projemizde WordPress altyapısı kullanmakla birlikte müşterimizin birçok kişisel istekleri doğrultusunda geliştirmeler yapılmıştır. Bu firmamız için ayrıca SEO ve Reklam çalışmaları da yapılmıştır. Güncel olarak web sitesi üzerinde 200+ ürün bulunmaktadır ve aktif satış yapılmaktadır. Sizlerde bu tarz bir web sitesine sahip olmak isterseniz bizimle hemen iletişime geçin.",
+            "comment": "Birçok özel isteğim bulunmasına rağmen tümünü hazırlayıp çok kısa bir sürede teslim ettiler.  Axezi Software firmasını herkese tavsiye etmekteyim",
+            "commenter": "MELİH DOĞRU",
+            "techs": [
+                {
+                    "id": "1",
+                    "name": "WORDPRESS",
+                    "icon": "/icons/projects/wordpress-icon.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "PHP",
+                    "icon": "/icons/projects/php-icon.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "HTML",
+                    "icon": "/icons/projects/html-icon.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "CSS",
+                    "icon": "/icons/projects/css-icon.svg"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Fiber Tedarik",
+            "category": "wordpress",
+            "image": "/images/projects/fibertedarik-proje-image.webp",
+            "url": "https://fibertedarik.com",
+            "title": "Fiber Tedarik Shop",
+            "description": "Fiber tedarik firması için yapmış olduğumuz websitesini, yukarıdaki resimden yada başlık kısmındaki linkten inceleyebilirsiniz. Bu projemizde WordPress altyapısı kullanmakla birlikte müşterimizin birçok kişisel istekleri doğrultusunda geliştirmeler yapılmıştır. Bu firmamız için ayrıca SEO ve Reklam çalışmaları da yapılmıştır. Güncel olarak web sitesi üzerinde 200+ ürün bulunmaktadır ve aktif satış yapılmaktadır. Sizlerde bu tarz bir web sitesine sahip olmak isterseniz bizimle hemen iletişime geçin.",
+            "comment": "Benim için gayet işe yarar bir websitesi oluşturdular. Destek taleplerine de hızlıca yanıt vermekteler. Tavsiye ederim.",
+            "commenter": "ESRA DOĞRU",
+            "techs": [
+                {
+                    "id": "1",
+                    "name": "WORDPRESS",
+                    "icon": "/icons/projects/wordpress-icon.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "PHP",
+                    "icon": "/icons/projects/php-icon.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "HTML",
+                    "icon": "/icons/projects/html-icon.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "CSS",
+                    "icon": "/icons/projects/css-icon.svg"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Fiber Matbaa",
+            "category": "wordpress",
+            "image": "/images/projects/fibermatbaa-proje-image.webp",
+            "url": "https://fibermatbaa.com",
+            "title": "Fiber Matbaa Shop",
+            "description": "Fiber matbaa firması için yapmış olduğumuz websitesini, yukarıdaki resimden yada başlık kısmındaki linkten inceleyebilirsiniz. Bu projemizde WordPress altyapısı kullanmakla birlikte müşterimizin birçok kişisel istekleri doğrultusunda geliştirmeler yapılmıştır. Bu firmamız için ayrıca SEO ve Reklam çalışmaları da yapılmıştır. Güncel olarak web sitesi üzerinde 200+ ürün bulunmaktadır ve aktif satış yapılmaktadır. Sizlerde bu tarz bir web sitesine sahip olmak isterseniz bizimle hemen iletişime geçin.",
+            "comment": "Daha önce hiç bu kadar profesyonel ve işini iyi yapan bir firma ile çalışmamıştım. Kendileri satış sitemi kurmakta ve satış yapmamda çok yardımcı oldular.",
+            "commenter": "HASAN ÖZER",
+            "techs": [
+                {
+                    "id": "1",
+                    "name": "WORDPRESS",
+                    "icon": "/icons/projects/wordpress-icon.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "PHP",
+                    "icon": "/icons/projects/php-icon.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "HTML",
+                    "icon": "/icons/projects/html-icon.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "CSS",
+                    "icon": "/icons/projects/css-icon.svg"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "HD İş Elbiseleri",
+            "category": "wordpress",
+            "image": "/images/projects/hd-is-elbiseleri-proje-image.webp",
+            "url": "https://hdiselbiseleri.com",
+            "title": "HD İş Elbiseleri Shop",
+            "description": "HD iş elbiseleri firması için yapmış olduğumuz websitesini, yukarıdaki resimden yada başlık kısmındaki linkten inceleyebilirsiniz. Bu projemizde WordPress altyapısı kullanmakla birlikte bir çok özel bölüm geliştirmeleri yapışmıştır. Bu firmamız için ayrıca SEO ve Reklam çalışmaları da yapılmıştır. Güncel olarak web sitesi üzerinde 70+ ürün bulunmaktadır ve aktif satış yapılmaktadır. Sizlerde bu tarz bir web sitesine sahip olmak isterseniz bizimle hemen iletişime geçin.",
+            "comment": "",
+            "commenter": "",
+            "techs": [
+                {
+                    "id": "1",
+                    "name": "WORDPRESS",
+                    "icon": "/icons/projects/wordpress-icon.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "PHP",
+                    "icon": "/icons/projects/php-icon.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "HTML",
+                    "icon": "/icons/projects/html-icon.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "CSS",
+                    "icon": "/icons/projects/css-icon.svg"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Kişisel Tanıtım Sitesi",
+            "category": "Next JS",
+            "image": "/images/projects/portfolio-website-proje-image.webp",
+            "url": "https://emrullahyaprak.com",
+            "title": "Kişisel Tanıtım Sitesi",
+            "description": "işisel web site tasarımını, yukarıdaki resimden yada başlık kısmındaki linkten inceleyebilirsiniz. Bu projemizde Next.js teknolojisi kullanılarak özel bir kişisel web site tasarımı yaptık. Bu web sitemiz son teknoloji ve kaliteli kodlama ile hazırlanmıştır. Özel geçişler sayfaya dahil edilmiştir. Sizlerde bu tarz bir web sitesine sahip olmak isterseniz bizimle hemen iletişime geçin.",
+            "comment": "",
+            "commenter": "",
+            "techs": [
+                {
+                    "id": "1",
+                    "name": "NEXT JS",
+                    "icon": "/icons/projects/nextjs-logo.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "SASS",
+                    "icon": "/icons/projects/sass-icon.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "HTML",
+                    "icon": "/icons/projects/html-icon.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "CSS",
+                    "icon": "/icons/projects/css-icon.svg"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Vizyon Marka Ajans",
+            "category": "Wordpress",
+            "image": "/images/projects/vizyonmarka-proje-image.webp",
+            "url": "https://vizyonmarka.com",
+            "title": "Vizyon Marka Ajans",
+            "description": "Vizyon Marka Ajans için yapmış olduğumuz websitesini, yukarıdaki resimden yada başlık kısmındaki linkten inceleyebilirsiniz. Bu projemizde WordPress altyapısı kullanmakla birlikte müşterimizin birçok kişisel istekleri doğrultusunda geliştirmeler yapılmıştır. Bu firmamız için ayrıca SEO ve Reklam çalışmaları da yapılmıştır. Güncel olarak web sitesi üzerinde 100+ fotoğraf tanıtımı yapılmaktadır. Sizlerde bu tarz bir web sitesine sahip olmak isterseniz bizimle hemen iletişime geçin.",
+            "comment": "Sitemi yeniden Axezi Software firmasına tasarlattım ve harika oldu. Yaptığı işin her zaman arkasında ve sürekli destek sağlamakta.",
+            "commenter": "BARIŞ TEKİN",
+            "techs": [
+                {
+                    "id": "1",
+                    "name": "WORDPRESS",
+                    "icon": "/icons/projects/wordpress-icon.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "PHP",
+                    "icon": "/icons/projects/php-icon.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "HTML",
+                    "icon": "/icons/projects/html-icon.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "CSS",
+                    "icon": "/icons/projects/css-icon.svg"
+                }
+            ]
+        }
+    ]
+}

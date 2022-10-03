@@ -1,7 +1,8 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,,json}",
+    "./components/**/*.{js,ts,jsx,tsx,json}",
+    "./src/**/*.{js,jsx,ts,tsx,json}"
   ],
   theme: {
     fontFamily: {
@@ -18,6 +19,7 @@ module.exports = {
       containerBg: '#EDF6FC',
       gray: '#d4d4d4',
       softGray: '#E7E7E7',
+      formBg: "#ffffff4d"
     },
     maxWidth: {
       siteWitdh: '1336px',
@@ -27,7 +29,9 @@ module.exports = {
       up: '999'
     },
     extend: {
-
+      scale: {
+        "102": "1.02",
+      }
     },
   },
   plugins: [],

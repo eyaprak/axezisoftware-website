@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import data from '../utils/footerLinks.json';
+import CallForm from './CallForm';
 const Footer = () => {
     return (
-        <div className="w-full bg-[#211F3B] pt-24 mt-28">
+        <div className="w-full bg-[#211F3B] pt-24">
             <div className="max-w-siteWitdh mx-auto">
-                <div className="grid grid-cols-4 gap-6">
-                    <div className="">
+                <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
+                    <div className="text-center md:text-start">
                         <h4 className="text-xl text-white font-montserratBold mb-6">Servislerimiz</h4>
                         <ul>
                             {data.servicesData.map((item) => (
@@ -17,7 +18,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="text-center md:text-start">
                         <h4 className="text-xl text-white font-montserratBold mb-6">Yararlı Linkler</h4>
                         <ul>
                             {data.helpfulLinksData.map((item) => (
@@ -29,7 +30,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="text-center md:text-start">
                         <h4 className="text-xl text-white font-montserratBold mb-6">Son Yazılarımız</h4>
                         <ul>
                             {data.lastBlogsData.map((item) => (
@@ -41,8 +42,9 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="text-center md:text-start">
                         <h4 className="text-xl text-white font-montserratBold mb-6">Sizi Arayalım!</h4>
+                        <CallForm />
                     </div>
                 </div>
                 <div className="border-t-[1px] border-softGray border-opacity-20 mt-20 pt-5 pb-5 text-center text-white">

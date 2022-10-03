@@ -31,6 +31,22 @@
     font-style: normal;
 }
 
-body{
+body {
     box-sizing: border-box;
+}
+ul.blog li{
+    margin: 10px 0px;
+}
+ul.blog li:before {
+    content: '';
+    background: url('../public/icons/blog-icon.svg');
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background-size: cover;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    vertical-align: middle;
 }

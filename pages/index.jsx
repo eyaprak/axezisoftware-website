@@ -8,8 +8,7 @@ import Blogs from '../components/Blogs';
 import Footer from '../components/Footer';
 export default function Home() {
   return (
-    <div className="h-[5000px]">
-      <Header />
+    <>
       <Banner />
       <div className="max-w-siteWitdh m-auto">
         <Cards />
@@ -18,7 +17,6 @@ export default function Home() {
       <Works />
       <Tech />
       <Blogs />
-      <Footer />
-    </div>
+    </>
   )
 }
