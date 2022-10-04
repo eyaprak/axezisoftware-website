@@ -26,16 +26,21 @@ const Header = () => {
             <div className="max-w-siteWitdh flex-col gap-2 flex md:flex-row flex-auto items-center justify-evenly m-auto">
                 <div className="hidden md:inline-block logo-image cursor-pointer">
                     <Link href="/">
-                        <Image width={96} height={120} src="/images/axezi_software_logo.webp" alt="Axezi Software Logo" />
+                        <a>
+                            <Image width={96} height={120} src="/images/axezi_software_logo.webp" alt="Axezi Software Logo" />
+                        </a>
                     </Link>
                 </div>
                 <div className="flex justify-center flex-auto flex-wrap">
                     <ul className="flex-wrap justify-center main-menu flex gap-3 md:gap-8">
                         {data.menuItems.map((item) => (
 
-                            <li className="text-lg font-montserratBold text-primary" key={item.id}>
+                            <li className="text-lg font-montserratBold text-primary  relative group" key={item.id}>
                                 <Link href={`${item.url}`}>
-                                    {item.name}
+                                    <a className="before:content-[''] before:bg-primary before:ease-in-out before:h-1 before:absolute before:block  before:-bottom-1 before:left-0 
+                                    before:transition-all before:duration-500 before:w-0 group-hover:before:!w-full " >
+                                        {item.name}
+                                    </a>
                                 </Link>
                             </li>
                         ))}
@@ -44,7 +49,7 @@ const Header = () => {
                 <div className="hidden md:flex flex-1 justify-end">
                     <div className="flex items-center gap-3">
                         <a href="https://wa.me/+905364923401" target="_blank" className="flex items-center gap-2" rel="noreferrer noopener">
-                            <Image src="/icons/whatsapp-icon.svg" width={44} height={44} alt="whatsapp icon"/>
+                            <Image src="/icons/whatsapp-icon.svg" width={44} height={44} alt="whatsapp icon" />
                             <div className="flex flex-col">
                                 <span className="text-base font-montserrat">Whatsapp</span>
                                 <span className="text-lg text-primary font-semibold">+905364923401</span>

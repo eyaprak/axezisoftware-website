@@ -13,7 +13,9 @@ const MobileHeader = () => {
                 </a>
 
                 <Link href="/">
-                    <Image width={75} height={100} src="/images/axezi_software_logo.webp" alt="Axezi Software Logo"/>
+                    <a>
+                        <Image width={75} height={100} src="/images/axezi_software_logo.webp" alt="Axezi Software Logo" />
+                    </a>
                 </Link>
 
                 <Link href="/iletisim">
