@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import data from '../utils/footerLinks.json';
 import CallForm from './CallForm';
+
 const Footer = () => {
     return (
         <div className="w-full bg-[#211F3B] pt-24">
