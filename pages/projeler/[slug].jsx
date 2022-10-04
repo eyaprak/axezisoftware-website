@@ -5,6 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 import Tech from '../../components/Projects/Card';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 export const getStaticPaths = () => {
 
     const newArray = data.projelerData.map((item) => {
@@ -48,12 +49,19 @@ export const getStaticProps = (context) => {
 const Proje = ({ project }) => {
     return (
         <>
+            <Head>
+                <title>{`${project.title} | Axezi Software`}</title>
+                <meta
+                    name="description"
+                    content={project.description.substring(0, 150)}
+                />
+            </Head>
             <Breadcrumb title={project.name} naviText='PROJELERİMİZ' link='/projeler' />
             <div className='max-w-siteWitdh mx-auto py-20 px-4'>
                 <div className='border-[1px] border-softGray w-auto min-h-[750px] md:min-h-[2560px] h-full relative group hover:-translate-y-2 transition-all duration-500 cursor-pointer'>
                     <a href={project.url} target='_blank' rel='noopener noreferrer'>
                         <Image src={project.image} layout='fill' objectFit='contain' className='object-top grayscale 
-                    group-hover:grayscale-0 transition-all duration-500' alt='proje image'/>
+                    group-hover:grayscale-0 transition-all duration-500' alt='proje image' />
                     </a>
                 </div>
                 <h4 className='text-4xl mt-16 font-montserratBold text-primary'>{project.title}</h4>
@@ -63,7 +71,7 @@ const Proje = ({ project }) => {
                 </div>
                 {project.comment && (
                     <div className='mt-6 flex items-start basis-10 gap-4'>
-                        <Image src='/icons/projects/quote-icon.svg' width={40} height={40} objectFit='cover' alt='quote image'/>
+                        <Image src='/icons/projects/quote-icon.svg' width={40} height={40} objectFit='cover' alt='quote image' />
 
                         <div className='flex flex-col gap-4'>
                             <span className='text-2xl font-montserratSemibold'>'{project.comment}'</span>

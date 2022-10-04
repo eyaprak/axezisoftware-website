@@ -2,6 +2,7 @@ import data from '../../utils/blogs.json';
 import slugify from 'slugify';
 import Breadcrumb from '../../components/Breadcrumb';
 import Image from 'next/image'
+import Head from 'next/head';
 export const getStaticPaths = () => {
 
     const newArray = data.blogData.map((item) => {
@@ -43,10 +44,17 @@ export const getStaticProps = (context) => {
 const SingleBlog = ({ blog }) => {
     return (
         <>
+            <Head>
+                <title>{`${blog.title} | Axezi Software`}</title>
+                <meta
+                    name="description"
+                    content={blog.description.substring(0, 150)}
+                />
+            </Head>
             <Breadcrumb title={blog.title} naviText="YAZILARIMIZ" link="blogs" />
             <div className="max-w-siteWitdh mx-auto my-14 px-4 md:px-0">
                 <div className="relative w-full h-full min-h-[400px] md:min-h-[620px]">
-                    <Image src={blog.coverImage} layout="fill" objectFit="cover" alt="blog image"/>
+                    <Image src={blog.coverImage} layout="fill" objectFit="cover" alt="blog image" />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: blog.description }} className="mt-6 font-montserrat" />
             </div>

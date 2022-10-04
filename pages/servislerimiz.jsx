@@ -3,9 +3,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Services from '../components/Services'
 import Cards from '../components/Cards'
+import Head from 'next/head';
 const Servislerimiz = () => {
     return (
         <>
+            <Head>
+                <title>Servislerimiz | Axezi Software</title>
+                <meta
+                    name="description"
+                    content="Blockhain programlama, web yazılım, UI/UX dizayn, E-Ticaret Web Hizmeti, SEO ve Reklam Hizmeti ve daha bir çok hizmet Axezi Software'de."
+                />
+            </Head>
             <Breadcrumb title="Servislerimiz" naviText="SERVİSLERİMİZ" link="/servislerimiz" />
             <div className="max-w-siteWitdh m-auto">
                 <Services />

@@ -3,7 +3,9 @@ import Link from 'next/link'
 import data from '../utils/menus.json';
 import { useState, useEffect } from 'react';
 import MobileHeader from './MobileHeader';
+import { useRouter } from 'next/router';
 const Header = () => {
+    const router = useRouter();
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -37,8 +39,9 @@ const Header = () => {
 
                             <li className="text-lg font-montserratBold text-primary  relative group" key={item.id}>
                                 <Link href={`${item.url}`}>
-                                    <a className="before:content-[''] before:bg-primary before:ease-in-out before:h-1 before:absolute before:block  before:-bottom-1 before:left-0 
-                                    before:transition-all before:duration-500 before:w-0 group-hover:before:!w-full " >
+                                    <a className={`before:content-[''] before:bg-primary before:ease-in-out before:h-1 before:absolute before:block  before:-bottom-1 before:left-0 
+                                    before:transition-all before:duration-500 before:w-0 group-hover:before:!w-full
+                                    ${router.pathname === item.url ? "before:w-full" : ''}`} >
                                         {item.name}
                                     </a>
                                 </Link>
