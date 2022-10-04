@@ -8,6 +8,7 @@
     src: url('../public/assets/Montserrat/Montserrat-Bold.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +16,7 @@
     src: url('../public/assets/Montserrat/Montserrat-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -22,6 +24,7 @@
     src: url('../public/assets/Montserrat/Montserrat-SemiBold.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -29,6 +32,7 @@
     src: url('../public/assets/Montserrat/Montserrat-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 body {
