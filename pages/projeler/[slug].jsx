@@ -49,8 +49,8 @@ const Proje = ({ project }) => {
     return (
         <>
             <Breadcrumb title={project.name} naviText='PROJELERİMİZ' link='/projeler' />
-            <div className='max-w-siteWitdh mx-auto py-20'>
-                <div className='border-[1px] border-softGray w-auto min-h-[2560px] h-full relative group hover:-translate-y-2 transition-all duration-500 cursor-pointer'>
+            <div className='max-w-siteWitdh mx-auto py-20 px-4'>
+                <div className='border-[1px] border-softGray w-auto min-h-[750px] md:min-h-[2560px] h-full relative group hover:-translate-y-2 transition-all duration-500 cursor-pointer'>
                     <a href={project.url} target='_blank' rel='noopener noreferrer'>
                         <Image src={project.image} layout='fill' objectFit='contain' className='object-top grayscale 
                     group-hover:grayscale-0 transition-all duration-500' alt='proje image'/>
@@ -75,7 +75,7 @@ const Proje = ({ project }) => {
                     <a className='bg-primary text-white px-6 py-4 inline-block mt-6 hover:bg-second transition-all duration-500'>Fiyat Teklifi Al</a>
                 </Link>
                 <h4 className='text-4xl mt-10 font-montserratBold text-primary'>Kullanılan Teknolojiler</h4>
-                <div className='grid grid-cols-4 gap-12 mt-6'>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-12 mt-0 md:mt-6'>
                     {project.techs.map((item) => (
                         <Tech key={item.id} name={item.name} icon={item.icon} />
                     ))}
