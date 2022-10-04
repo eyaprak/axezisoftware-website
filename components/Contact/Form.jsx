@@ -1,6 +1,7 @@
 import { toast } from 'react-toastify';
 import { useState } from 'react';
 import 'react-toastify/dist/ReactToastify.css';
+import { emailValidation } from '../../utils/emailValidation'
 const Form = () => {
     const [data, setData] = useState({
         name: "",
@@ -17,23 +18,27 @@ const Form = () => {
 
     const onClickHandler = async () => {
         if (data.name !== "" && data.mail !== "" && data.message !== "") {
-            const response = await fetch('/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-            if (response.status === 200) {
-                setData({
-                    name: "",
-                    phone: "",
-                    mail: "",
-                    message: ""
-                })
-                toast.success('En kısa süre içerisinde sizlere dönüş sağlayacağız.', { duration: 5000 })
+            if (!emailValidation(data.mail)) {
+                toast.error("Lütfen geçerli bir e-mail adresi giriniz.", { duration: 5000, position: 'bottom-right' });
             } else {
-                toast.error("Form gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.", { duration: 5000 })
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                if (response.status === 200) {
+                    setData({
+                        name: "",
+                        phone: "",
+                        mail: "",
+                        message: ""
+                    })
+                    toast.success('En kısa süre içerisinde sizlere dönüş sağlayacağız.', { duration: 5000, position: 'bottom-right' })
+                } else {
+                    toast.error("Form gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.", { duration: 5000, position: 'bottom-right' })
+                }
             }
         } else {
             toast.error("Lütfen tüm zorunlu alanların dolu olduğundan emin olunuz.", { duration: 5000, position: 'bottom-right' })

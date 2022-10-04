@@ -32,9 +32,9 @@ const CallForm = () => {
                     mail: "",
                     message: ""
                 })
-                toast.success('En kısa süre içerisinde sizlere dönüş sağlayacağız.', { duration: 5000 })
+                toast.success('En kısa süre içerisinde sizlere dönüş sağlayacağız.', { duration: 5000, position: 'bottom-right' })
             } else {
-                toast.error("Form gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.")
+                toast.error("Form gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.", { duration: 5000, position: 'bottom-right' })
             }
         } else {
             toast.error("Lütfen tüm zorunlu alanların dolu olduğundan emin olunuz.", { duration: 5000, position: 'bottom-right' })

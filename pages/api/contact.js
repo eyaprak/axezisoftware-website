@@ -3,14 +3,14 @@ import sgMail from '@sendgrid/mail';
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async (req, res) => {
-    const { email, message, name, phone } = req.body;
+    const { mail, message, name, phone } = req.body;
     const msg = {
         to: 'info@axezisoftware.com',
         from: 'info@axezisoftware.com',
-        subject: 'A New Message From Contact Form! ' + email || '',
+        subject: `A New Message From ${mail !== "" ? `Contact Form! - ${mail}` : "Call Me Form!"}`,
         name,
         text: `
-        Email: ${email || ''}
+        Email: ${mail || ''}
         Name: ${name || ''}
         Message: ${message || ''}
         Phone: ${phone || ''}
