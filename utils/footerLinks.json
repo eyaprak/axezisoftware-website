@@ -52,17 +52,17 @@
         {
             "id": "1",
             "text": "Blockchain Yazılım Hizmetleri",
-            "link": "/blockchain-yazilim-hizmetleri"
+            "link": "/blogs/blockchain-yazilim"
         },
         {
             "id": "2",
             "text": "Google Reklam Verme",
-            "link": "/google-reklam-verme-hizmeti-google-ads"
+            "link": "/blogs/google-reklam-verme-hizmeti"
         },
         {
             "id": "3",
             "text": "Web Yazılım Hizmetleri",
-            "link": "/web-yazilim-hizmetleri"
+            "link": "/blogs/web-yazilim-hizmetleri"
         }
     ]
 }

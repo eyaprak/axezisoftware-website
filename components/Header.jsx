@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 const Header = () => {
     const router = useRouter();
     const [scrollY, setScrollY] = useState(0);
+    const [screenSize, setScreenSize] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,6 +23,11 @@ const Header = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
+    useEffect(() => {
+        const screenSize = window.innerWidth;
+        setScreenSize(screenSize);
+    }, [])
+
     return (
         <div className={`pb-4 md:pb-0 z-[1001] transition-all duration-700 ease-in-out ${scrollY > 0 && 'shadow-xl sticky top-0  bg-white bg-opacity-50 backdrop-blur-md'}`}>
             <MobileHeader />
@@ -33,7 +39,7 @@ const Header = () => {
                         </a>
                     </Link>
                 </div>
-                <div className="flex justify-center flex-auto flex-wrap">
+                <div className={`flex justify-center flex-auto flex-wrap ${scrollY > 0 && screenSize < 768 ? 'hidden' : ""}`}>
                     <ul className="flex-wrap justify-center main-menu flex gap-3 md:gap-8">
                         {data.menuItems.map((item) => (
 
