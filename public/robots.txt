@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://axezisoftware.com
+
+# Sitemaps
+Sitemap: https://axezisoftware.com/sitemap.xml

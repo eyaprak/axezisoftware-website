@@ -17,6 +17,11 @@
   dependencies:
     "regenerator-runtime" "^0.13.4"
 
+"@corex/deepmerge@^4.0.29":
+  "integrity" "sha512-q/yVUnqckA8Do+EvAfpy7RLdumnBy9ZsducMUtZTvpdbJC7azEf1hGtnYYxm0QfphYxjwggv6XtH64prvS1W+A=="
+  "resolved" "https://registry.npmjs.org/@corex/deepmerge/-/deepmerge-4.0.29.tgz"
+  "version" "4.0.29"
+
 "@emotion/is-prop-valid@^0.8.2":
   "integrity" "sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA=="
   "resolved" "https://registry.npmjs.org/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz"
@@ -121,7 +126,7 @@
     "hey-listen" "^1.0.8"
     "tslib" "^2.3.1"
 
-"@next/env@12.3.1":
+"@next/env@*", "@next/env@12.3.1":
   "integrity" "sha512-9P9THmRFVKGKt9DYqeC2aKIxm8rlvkK38V1P1sRE7qyoPBIs8l9oo79QoSdPtOWfzkbDAVUqvbQGgTMsb8BtJg=="
   "resolved" "https://registry.npmjs.org/@next/env/-/env-12.3.1.tgz"
   "version" "12.3.1"
@@ -1419,7 +1424,15 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@12.3.1":
+"next-sitemap@^3.1.23":
+  "integrity" "sha512-szQ5uvxn4/7P01U/rvzEccOcYk0Nm+kI3BGzHheREV+HDcj+IilrhXCuNqv4dBWy49eqsgCmjHuEDINx3/teMQ=="
+  "resolved" "https://registry.npmjs.org/next-sitemap/-/next-sitemap-3.1.23.tgz"
+  "version" "3.1.23"
+  dependencies:
+    "@corex/deepmerge" "^4.0.29"
+    "minimist" "^1.2.6"
+
+"next@*", "next@12.3.1":
   "integrity" "sha512-l7bvmSeIwX5lp07WtIiP9u2ytZMv7jIeB8iacR28PuUEFG5j0HGAPnMqyG5kbZNBG2H7tRsrQ4HCjuMOPnANZw=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.3.1.tgz"
   "version" "12.3.1"
