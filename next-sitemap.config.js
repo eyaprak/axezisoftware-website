@@ -11,7 +11,6 @@ module.exports = {
             { userAgent: "*", allow: "/" },
         ],
         additionalSitemaps: [
-            `https://axezisoftware.com/sitemap.xml`,
             `https://axezisoftware.com/blogs-sitemap.xml`,
             `https://axezisoftware.com/projects-sitemap.xml`,
         ],
