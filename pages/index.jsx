@@ -12,7 +12,7 @@ export default function Home() {
         <title>Web Yazılım ve Tasarım Hizmetleri | Axezi Software</title>
         <meta
           name="description"
-          content="Web site tasarımı, Mobil uygulama tasarımı, Web yazılım hizmetleri ve daha bir çok alanda siz müşterilerimize destek sağlamaktayız."
+          content="Axezisoftware, Axezi Software, Web site tasarımı, Mobil uygulama tasarımı, Web yazılım hizmetleri ve daha bir çok alanda siz müşterilerimize destek sağlamaktayız."
         />
 
       </Head>
