@@ -7,7 +7,7 @@ const Blogs = () => {
         <div className="max-w-siteWitdh m-auto mb-12 md:mb-0">
             <div className="flex flex-col px-4 md:px-0 md:flex-row items-center justify-between mt-28">
                 <Title title="Blog Yazılarımız" subtitle="Blog" comp="blog" />
-                <Link href="/blog">
+                <Link href="/blogs">
                     <a className="uppercase bg-primary py-4 px-5 text-white font-montserratSemibold hover:bg-second transition-all duration-500 inline-block">
                         Tüm Yazılarımız
                     </a>
