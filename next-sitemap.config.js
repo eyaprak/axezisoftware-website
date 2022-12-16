@@ -1,12 +1,12 @@
 module.exports = {
     siteUrl: 'https://axezisoftware.com',
-    exclude: ["/404"],
+    exclude: ["/404", '/policy'],
     generateRobotsTxt: true,
     robotsTxtOptions: {
         policies: [
             {
                 userAgent: "*",
-                disallow: ["/404"],
+                disallow: ["/404", "/policies"],
             },
             { userAgent: "*", allow: "/" },
         ],
