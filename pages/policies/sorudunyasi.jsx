@@ -14,10 +14,10 @@ const Iletisim = () => {
             <div className="max-w-siteWitdh mx-auto mt-12 md:my-28 ">
                 <h2 className="font-montserratBold text-2xl">Soru Dünyası - Privacy Policy</h2>
                 <div className="font-montserrat">
-                    <p className="my-2">AxeziApp built the Sesli Masal Oku/Dinle - İnternetsiz as a Free app. This SERVICE is provided by AxeziApp at no cost and is intended for use as is.
+                    <p className="my-2">AxeziApp built the Soru Dünyası: Öğretici Sorular as a Free app. This SERVICE is provided by AxeziApp at no cost and is intended for use as is.
                         This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
                         If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
-                        The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Sesli Masal Oku/Dinle - İnternetsiz unless otherwise defined in this Privacy Policy.
+                        The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Soru Dünyası: Öğretici Sorular unless otherwise defined in this Privacy Policy.
                     </p>
                     <p className="my-2 text-lg font-montserratBold">Information Collection and Use</p>
                     For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
